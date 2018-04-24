@@ -1,0 +1,771 @@
+/* line 6, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 11, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.text-muted {
+  color: #777777; }
+
+/* line 15, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.text-primary {
+  color: #64FF67; }
+
+/* line 19, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+p {
+  font-size: 14px;
+  line-height: 1.75; }
+
+/* line 24, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+p.large {
+  font-size: 16px; }
+
+/* line 28, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none; }
+
+/* line 36, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+a {
+  color: #64FF67; }
+
+/* line 40, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #31ff35; }
+
+/* line 47, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+/* line 52, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.img-centered {
+  margin: 0 auto; }
+
+/* line 56, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.bg-light-gray {
+  background-color: #eeeeee; }
+
+/* line 60, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.bg-darkest-gray {
+  background-color: #222222; }
+
+/* line 66, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.btn-primary {
+  color: white;
+  background-color: #64FF67;
+  border-color: #64FF67;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+  /* line 10, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-primary:focus, .btn-primary.focus {
+    color: white;
+    background-color: #31ff35;
+    border-color: #00e404; }
+  /* line 16, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-primary:hover {
+    color: white;
+    background-color: #31ff35;
+    border-color: #27ff2b; }
+  /* line 21, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-primary:active, .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    color: white;
+    background-color: #31ff35;
+    border-color: #27ff2b; }
+    /* line 28, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+    .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
+    .open > .btn-primary.dropdown-toggle:hover,
+    .open > .btn-primary.dropdown-toggle:focus,
+    .open > .btn-primary.dropdown-toggle.focus {
+      color: white;
+      background-color: #0dff12;
+      border-color: #00e404; }
+  /* line 36, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-primary:active, .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    background-image: none; }
+  /* line 44, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus,
+  fieldset[disabled] .btn-primary:hover,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary.focus {
+    background-color: #64FF67;
+    border-color: #64FF67; }
+  /* line 52, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-primary .badge {
+    color: #64FF67;
+    background-color: white; }
+
+/* line 72, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.btn-xl {
+  color: white;
+  background-color: #64FF67;
+  border-color: #64FF67;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px; }
+  /* line 10, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-xl:focus, .btn-xl.focus {
+    color: white;
+    background-color: #31ff35;
+    border-color: #00e404; }
+  /* line 16, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-xl:hover {
+    color: white;
+    background-color: #31ff35;
+    border-color: #27ff2b; }
+  /* line 21, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    color: white;
+    background-color: #31ff35;
+    border-color: #27ff2b; }
+    /* line 28, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+    .btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
+    .open > .btn-xl.dropdown-toggle:hover,
+    .open > .btn-xl.dropdown-toggle:focus,
+    .open > .btn-xl.dropdown-toggle.focus {
+      color: white;
+      background-color: #0dff12;
+      border-color: #00e404; }
+  /* line 36, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-xl:active, .btn-xl.active,
+  .open > .btn-xl.dropdown-toggle {
+    background-image: none; }
+  /* line 44, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
+  fieldset[disabled] .btn-xl:hover,
+  fieldset[disabled] .btn-xl:focus,
+  fieldset[disabled] .btn-xl.focus {
+    background-color: #64FF67;
+    border-color: #64FF67; }
+  /* line 52, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/_mixins.scss */
+  .btn-xl .badge {
+    color: #64FF67;
+    background-color: white; }
+
+/* line 83, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent; }
+  /* line 86, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom .navbar-brand {
+    color: #64FF67;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
+    /* line 89, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
+      color: #31ff35; }
+  /* line 96, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.98); }
+  /* line 99, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom .navbar-toggle {
+    background-color: #64FF67;
+    border-color: #64FF67;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px; }
+    /* line 105, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+      background-color: #64FF67; }
+  /* line 112, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom .nav li a {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white; }
+    /* line 117, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+      color: #64FF67;
+      outline: none; }
+  /* line 125, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 0;
+    color: white;
+    background-color: #64FF67; }
+  /* line 130, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom .navbar-nav > .active > a:hover,
+  .navbar-custom .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #31ff35; }
+
+@media (min-width: 768px) {
+  /* line 138, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none; }
+    /* line 145, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .navbar-custom .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    /* line 151, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .navbar-custom .navbar-nav > .active > a {
+      border-radius: 3px; } }
+
+@media (min-width: 768px) {
+  /* line 160, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0; }
+    /* line 163, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .navbar-custom.affix .navbar-brand {
+      font-size: 1.5em; } }
+
+/* line 169, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+header {
+  background-image: url("../img/rainbow.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #eeeeee; }
+  /* line 177, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px; }
+    /* line 180, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    header .intro-text .intro-lead-in {
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 22px;
+      line-height: 22px;
+      margin-bottom: 25px; }
+    /* line 187, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    header .intro-text .intro-heading {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 25px; }
+
+@media (min-width: 768px) {
+  /* line 199, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px; }
+    /* line 202, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    header .intro-text .intro-lead-in {
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 25px; }
+    /* line 209, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    header .intro-text .intro-heading {
+      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 75px;
+      line-height: 75px;
+      margin-bottom: 50px; } }
+
+/* line 222, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+section {
+  padding: 100px 0; }
+  /* line 224, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px; }
+  /* line 229, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section h3.section-subheading {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 75px; }
+
+@media (min-width: 768px) {
+  /* line 240, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section {
+    padding: 150px 0; } }
+
+/* line 247, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.service-heading {
+  margin: 15px 0;
+  text-transform: none; }
+
+/* line 255, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0; }
+  /* line 258, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  #portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto; }
+    /* line 263, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+      background: rgba(100, 255, 103, 0.1);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s; }
+      /* line 272, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+        opacity: 1; }
+      /* line 275, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+        top: 50%;
+        margin-top: -12px;
+        color: white; }
+        /* line 284, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+          margin-top: -12px; }
+        /* line 287, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+          margin: 0; }
+  /* line 294, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  #portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 25px; }
+    /* line 300, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    #portfolio .portfolio-item .portfolio-caption h4 {
+      text-transform: none;
+      margin: 0; }
+    /* line 304, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    #portfolio .portfolio-item .portfolio-caption p {
+      font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-style: italic;
+      font-size: 16px;
+      margin: 0; }
+
+/* line 312, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+#portfolio * {
+  z-index: 2; }
+
+@media (min-width: 767px) {
+  /* line 319, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  #portfolio .portfolio-item {
+    margin: 0 0 30px; } }
+
+/* line 327, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative; }
+  /* line 331, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color: #f1f1f1;
+    left: 40px;
+    margin-left: -1.5px; }
+  /* line 341, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline > li {
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 50px; }
+    /* line 345, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li:before, .timeline > li:after {
+      content: " ";
+      display: table; }
+    /* line 350, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li:after {
+      clear: both; }
+    /* line 353, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-panel {
+      width: 100%;
+      float: right;
+      padding: 0 20px 0 100px;
+      position: relative;
+      text-align: left; }
+      /* line 359, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto; }
+      /* line 365, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto; }
+    /* line 372, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-image {
+      left: 0;
+      margin-left: 0;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      z-index: 100;
+      background-color: #64FF67;
+      color: white;
+      border-radius: 100%;
+      border: 7px solid #f1f1f1;
+      text-align: center; }
+      /* line 384, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li .timeline-image h4 {
+        font-size: 10px;
+        margin-top: 12px;
+        line-height: 14px; }
+    /* line 390, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      float: right;
+      text-align: left;
+      padding: 0 20px 0 100px; }
+      /* line 394, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li.timeline-inverted > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto; }
+      /* line 400, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li.timeline-inverted > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto; }
+    /* line 407, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li:last-child {
+      margin-bottom: 0; }
+  /* line 412, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit; }
+    /* line 415, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline .timeline-heading h4.subheading {
+      text-transform: none; }
+  /* line 421, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline .timeline-body > p,
+  .timeline .timeline-body > ul {
+    margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  /* line 430, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline:before {
+    left: 50%; }
+  /* line 433, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px; }
+    /* line 436, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-panel {
+      width: 41%;
+      float: left;
+      padding: 0 20px 20px 30px;
+      text-align: right; }
+    /* line 442, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-image {
+      width: 100px;
+      height: 100px;
+      left: 50%;
+      margin-left: -50px; }
+      /* line 447, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li .timeline-image h4 {
+        font-size: 13px;
+        margin-top: 16px;
+        line-height: 18px; }
+    /* line 453, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      float: right;
+      text-align: left;
+      padding: 0 30px 20px 20px; } }
+
+@media (min-width: 992px) {
+  /* line 464, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline > li {
+    min-height: 150px; }
+    /* line 466, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-panel {
+      padding: 0 20px 20px; }
+    /* line 469, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-image {
+      width: 150px;
+      height: 150px;
+      margin-left: -75px; }
+      /* line 473, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li .timeline-image h4 {
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 26px; }
+    /* line 479, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      padding: 0 20px 20px; } }
+
+@media (min-width: 1200px) {
+  /* line 488, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .timeline > li {
+    min-height: 170px; }
+    /* line 490, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-panel {
+      padding: 0 20px 20px 100px; }
+    /* line 493, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li .timeline-image {
+      width: 170px;
+      height: 170px;
+      margin-left: -85px; }
+      /* line 497, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+      .timeline > li .timeline-image h4 {
+        margin-top: 40px; }
+    /* line 501, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .timeline > li.timeline-inverted > .timeline-panel {
+      padding: 0 100px 20px 20px; } }
+
+/* line 510, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.team-member {
+  text-align: center;
+  margin-bottom: 50px; }
+  /* line 513, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .team-member img {
+    margin: 0 auto;
+    border: 7px solid white; }
+  /* line 517, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+  /* line 522, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .team-member p {
+    margin-top: 0; }
+
+/* line 530, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+aside.clients img {
+  margin: 50px auto; }
+
+/* line 537, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+section#contact {
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
+  background-position: center;
+  background-repeat: no-repeat; }
+  /* line 542, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact .section-heading {
+    color: white; }
+  /* line 545, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact .form-group {
+    margin-bottom: 25px; }
+    /* line 547, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    section#contact .form-group input,
+    section#contact .form-group textarea {
+      padding: 20px; }
+    /* line 551, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    section#contact .form-group input.form-control {
+      height: auto; }
+    /* line 554, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    section#contact .form-group textarea.form-control {
+      height: 236px; }
+  /* line 558, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact .form-control:focus {
+    border-color: #64FF67;
+    box-shadow: none; }
+  /* line 562, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 567, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 572, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 577, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee; }
+  /* line 582, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  section#contact .text-danger {
+    color: #e74c3c; }
+
+/* line 589, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+footer {
+  padding: 25px 0;
+  text-align: center; }
+  /* line 592, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  footer span.copyright {
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none; }
+  /* line 597, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none; }
+
+/* line 607, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+ul.social-buttons {
+  margin-bottom: 0; }
+  /* line 610, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  ul.social-buttons li a {
+    display: block;
+    background-color: #222222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+    /* line 623, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+      background-color: #64FF67; }
+
+/* line 632, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none; }
+
+/* line 640, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto; }
+
+/* line 645, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center; }
+  /* line 654, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em; }
+  /* line 658, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .portfolio-modal .modal-content p {
+    margin-bottom: 30px; }
+  /* line 661, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px; }
+  /* line 667, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0; }
+  /* line 671, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .portfolio-modal .modal-content img {
+    margin-bottom: 30px; }
+
+/* line 675, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer; }
+  /* line 683, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .portfolio-modal .close-modal:hover {
+    opacity: 0.3; }
+  /* line 686, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+  .portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222222;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari and Chrome */
+    z-index: 1051; }
+    /* line 697, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+    .portfolio-modal .close-modal .lr .rl {
+      height: 75px;
+      width: 1px;
+      background-color: #222222;
+      transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      /* IE 9 */
+      -webkit-transform: rotate(90deg);
+      /* Safari and Chrome */
+      z-index: 1052; }
+
+/* line 710, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none; }
+
+/* line 718, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+::-moz-selection {
+  text-shadow: none;
+  background: #64FF67; }
+
+/* line 723, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+::selection {
+  text-shadow: none;
+  background: #64FF67; }
+
+/* line 728, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+img::selection {
+  background: transparent; }
+
+/* line 732, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+img::-moz-selection {
+  background: transparent; }
+
+/* line 736, ../../Users/trevo/OneDrive/Documents/Web Dev Projects/portfolio/css/agency.scss */
+body {
+  webkit-tap-highlight-color: #64FF67; }
+
+/*# sourceMappingURL=agency.css.map */
