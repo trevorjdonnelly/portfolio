@@ -80,5 +80,8 @@
 
 @mixin heading-font {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+}
+
+@mixin name-font {
+  font-family: "Aladin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
